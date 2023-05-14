@@ -1,0 +1,118 @@
+@import url("./header.css");
+@import url("./benefits.css");
+@import url("./founder.css");
+@import url("./footer.css");
+@font-face {
+  font-family: "Fraunces 144pt", serif;
+  src: url("../fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Manrope", sans-serif;
+  src: url("../fonts/manrope/Manrope-VariableFont_wght.ttf");
+}
+
+:root {
+  --font-title: "Fraunces 144pt";
+  --font-body: "Manrope";
+
+  --bg-color: #fcf8ff;
+  --bg-btn-color: #44ffa1;
+  --border-number-color: #584d62;
+  --font-primary-color: #ffffff;
+  --font-secondary-color: #24053e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--bg-color);
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  background-color: var(--bg-btn-color);
+  color: var(--font-secondary-color);
+}
+
+.btn:hover {
+  background-color: var(--font-secondary-color);
+  border: 2px solid var(--bg-btn-color);
+}
+
+.font-title {
+  font-family: var(--font-title);
+  font-weight: 600;
+}
+
+.font-body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+.font-link {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 2rem;
+  letter-spacing: 0.0175rem;
+}
+
+.font-link:hover {
+  color: var(--bg-btn-color);
+}
+
+.underline {
+  color: var(--font-primary-color);
+  text-decoration: underline var(--bg-btn-color) 3px;
+  text-underline-offset: 5px;
+}
+
+.logotipo {
+  width: 95.76px;
+}
+
+.icon {
+  width: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 768px;
+  }
+
+  .underline {
+    text-underline-offset: 7.5px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    max-width: 1440px;
+  }
+
+  .font-body {
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+
+  .font-link {
+    font-size: 1.125rem;
+    letter-spacing: 0.018rem;
+  }
+
+  .underline {
+    text-underline-offset: 10px;
+  }
+}

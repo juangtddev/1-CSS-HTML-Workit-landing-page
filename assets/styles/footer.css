@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 74px auto 63.78px;
+  width: 116px;
+  height: 102.22px;
+}
+
+.footer__social {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    margin-top: 80px;
+    margin-bottom: 121.78px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    margin-top: 121.78px;
+    margin-bottom: 110px;
+  }
+}

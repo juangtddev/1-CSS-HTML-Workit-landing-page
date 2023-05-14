@@ -3,19 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
     <title>Frontend Mentor | Workit landing page</title>
   </head>
   <body>
-    Apply for access Data tailored to your needs. Learn more 1 Actionable
-    insights Optimize your products, improve customer satisfaction and stay
-    ahead of the competition with our product data analytics. 2 Data-driven
-    decisions Make data-driven decisions with our product data analytics. Our
-    AI-generated reports help you unlock insights hidden in your product data. 3
-    Always affordable Always affordable pricing that scales with your business.
-    Get top-quality product data analytics services without hidden costs or
-    unexpected fees. Be the first to test Hi, I'm Louis Graham, the founder of
-    the company. Book a demo call with me to become a beta tester for our app
-    and kickstart your company. Apply for access below and I’ll be in touch to
-    schedule a call. Apply for access
+    <header class="header">
+      <nav class="navbar">
+        <div class="logotipo">
+          <img
+            src="./assets/images/logo-light.svg"
+            alt="Workit logo in light colors."
+          />
+        </div>
+        <a class="font-link underline" href="#">Apply for access</a>
+      </nav>
+      <div class="header__content">
+        <h1 class="font-title header__title">
+          Data <span class="underline">tailored</span> to your needs.
+        </h1>
+        <a class="font-link btn header__btn" href="#">Learn more</a>
+      </div>
+      <div class="header__hero--img">
+        <img src="./assets/images/image-hero.webp" alt="" />
+      </div>
+    </header>
+
+    <section class="benefits">
+      <div class="benefits__benefit">
+        <div class="font-title benefit__number">1</div>
+        <h2 class="font-title benefit__title">Actionable insights</h2>
+        <p class="font-body benefit__text">
+          Optimize your products, improve customer satisfaction and stay ahead
+          of the competition with our product data analytics.
+        </p>
+      </div>
+
+      <div class="benefits__benefit">
+        <div class="font-title benefit__number">2</div>
+        <h2 class="font-title benefit__title">Data-driven decisions</h2>
+        <p class="font-body benefit__text">
+          Make data-driven decisions with our product data analytics. Our
+          AI-generated reports help you unlock insights hidden in your product
+          data.
+        </p>
+      </div>
+
+      <div class="benefits__benefit">
+        <div class="font-title benefit__number">3</div>
+        <h2 class="font-title benefit__title">Always affordable</h2>
+        <p class="font-body benefit__text">
+          Always affordable pricing that scales with your business. Get
+          top-quality product data analytics services without hidden costs or
+          unexpected fees.
+        </p>
+      </div>
+    </section>
+
+    <section class="founder">
+      <div class="founder__photo">
+        <img
+          src="./assets/images/image-founder.webp"
+          alt="Photo of Workit Founder."
+        />
+      </div>
+      <div class="founder__message">
+        <h3 class="font-title founder__title">Be the first to test</h3>
+        <p class="font-body founder__text">
+          Hi, I'm Louis Graham, the founder of the company. Book a demo call
+          with me to become a beta tester for our app and kickstart your
+          company. Apply for access below and I’ll be in touch to schedule a
+          call.
+        </p>
+        <a class="font-link btn founder__btn" href="#">Apply for access</a>
+        <div class="founder__bg--img">
+          <img src="./assets/images/bg-pattern-3.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="logotipo">
+        <img
+          src="./assets/images/logo-dark.svg"
+          alt="Workit logo in dark colors."
+        />
+      </div>
+      <div class="footer__social">
+        <img
+          class="icon"
+          src="./assets/images/icon-facebook.svg"
+          alt="Facebook icon."
+        />
+        <img
+          class="icon"
+          src="./assets/images/icon-twitter.svg"
+          alt="Twitter icon."
+        />
+        <img
+          class="icon"
+          src="./assets/images/icon-instagram.svg"
+          alt="Instagram icon."
+        />
+      </div>
+    </footer>
   </body>
 </html>
